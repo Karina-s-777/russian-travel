@@ -1,8 +1,11 @@
 .page {
     background-color: #2A2C2F;
-    color: white;
     max-width: 1280px;
     margin: 0 auto;
+    font-family: 'Inter','Arial', sans-serif;;
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
 }
 
 .header {
@@ -34,13 +37,10 @@
 .header__lang-link {
     width: 30px;
     min-height: 28px;
-    font-family: 'Inter', 'Arial', sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 24px;
     line-height: 28px;
-    color: #FFFFFF;
     text-decoration: none;
+    color: #FFFFFF;
 }
 
 .header__lang-link_draw {
@@ -59,12 +59,9 @@
 .lead__title {
     margin: 0;
     min-height: 200px;
-    font-family: 'Inter', 'Arial', sans-serif;
-    font-style: normal;
     font-weight: 900;
     font-size: 96px;
     line-height: 100px;
-    color: #FFFFFF;
     padding: 0 132px;
     text-align: center;
 }
@@ -73,12 +70,8 @@
     margin: 0;
     width: 640px;
     min-height: 72px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
     font-size: 30px;
     line-height: 36px;
-    color: #FFFFFF;
     padding: 32px 172px 64px 172px;
     text-align: center;
 }
@@ -92,14 +85,10 @@
 
 .lead__caption {
     height: 14px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
     font-size: 10px;
     line-height: 14px;
     letter-spacing: 1.5px;
     text-transform: uppercase;
-    color: #FFFFFF;
     margin: 0;
 }
 
@@ -116,12 +105,9 @@
 .intro__title {
     width: 690px;
     min-height: 58px;
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 900;
     font-size: 54px;
     line-height: 58px;
-    color: #FFFFFF;
     padding-bottom: 40px;
     margin: 0;
 }
@@ -129,12 +115,8 @@
 .intro__text {
     width: 690px;
     min-height: 208px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 163%;
-    color: #FFFFFF;
     margin: 0;
 }
 
@@ -147,12 +129,9 @@
 }
 
 .intro__list {
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 700;
     font-size: 12px;
     line-height: 18px;
-    color: #FFFFFF;
     margin: 0;
 }
 
@@ -191,12 +170,10 @@
 .places {
     width: 984px;
     min-height: 3392px;
-    
 }
 
 .page__places {
     margin: 0 148px;
-    
 }
 
 .places__list {
@@ -218,12 +195,9 @@
 }
 
 .place__title {
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
-    color: #FFFFFF;
     grid-area: title;
     margin: 0;
     padding: 0;
@@ -242,13 +216,9 @@
 .place__url-heading {
     width: 456px;
     min-height: 12px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
     font-size: 12px;
     line-height: 12px;
     letter-spacing: 2px;
-    color: #AAAAAA;
     margin: 0;
     padding-bottom: 12px;
 }
@@ -256,13 +226,14 @@
 .place__link {
     width: 456px;
     min-height: 22px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
     font-size: 18px;
     line-height: 22px;
     text-decoration-line: underline;
     color: #FFFFFF;
+}
+
+.place__link:hover {
+    opacity: 0.5;
 }
 
 .place__image {
@@ -282,12 +253,8 @@
 .place__paragraph {
     margin: 0;
     padding: 0;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
     font-size: 18px;
     line-height: 163%;
-    color: #FFFFFF;
 }
 
 .place__paragraph:first-child {
@@ -316,7 +283,6 @@
     position: relative;
     z-index: 0;
     overflow: hidden;
-    color: #fff;
     text-decoration: none; 
 }
 
@@ -345,13 +311,11 @@
     min-height: 152px;
     margin: 0;
     padding: 245px 312px 0 312px;
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
-    color: #FFFFFF;
     align-self: center;
+    color: #FFFFFF;
 }
 
 .cover__subtitle {
@@ -359,13 +323,10 @@
     min-height: 66px;
     margin: 0;
     padding: 32px 412px 245px 412px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
     font-size: 18px;
     line-height: 22px;
-    color: #FFFFFF;
     align-self: center;
+    color: #FFFFFF;
 }
  
 .cover__overlay {
@@ -386,8 +347,6 @@
     display: block;
 }
 
-
-
 .footer {
     display: flex;
     justify-content: space-between;
@@ -398,27 +357,28 @@
 }
 
 .footer__navigation {
-
+    list-style: none;
 }
 
 .footer__links {
-    list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
+    list-style: none;
 }
 
 .footer__link {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 18px;
-    color: #FFFFFF;
     text-decoration: none;
+    color: #FFFFFF;
 }
 
-.footer__navigation {
+.footer__link:hover {
+    opacity: 0.5;
+}
+
+.footer__card {
     padding-right: 18px;
 }
 
@@ -429,15 +389,10 @@
 .footer__copyright {
     margin: 0;
     min-height: 16px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 16px;
     text-align: right;
-    color: #FFFFFF;
 }
-
 
 @font-face {
     font-family: 'Inter';
