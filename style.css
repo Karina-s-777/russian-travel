@@ -1,12 +1,11 @@
 .page {
+    background-color: #2A2C2F;
     max-width: 1280px;
     margin: 0 auto;
-    background-color: #2A2C2F;
     font-family: 'Inter','Arial', sans-serif;;
     font-style: normal;
     font-weight: 400;
     color: #FFFFFF;
-    margin: 0 auto;
 }
 
 /* header */
@@ -40,6 +39,7 @@
     .page__header {
     margin: 16px 16px 0 16px;
     width: calc(288px + (1184 - 288) * ((100vw - 320px) / (1280 - 320)));
+    height: 40px;
     }
 }
 
@@ -119,14 +119,12 @@
 
 .lead__title {
     margin: 0;
-    min-height: 200px;
+    height: 200px;
     font-weight: 900;
     font-size: 96px;
     line-height: 100px;
     padding: 0 132px;
     text-align: center;
-    width: 720px;
-    height: 200px;
 }
 
 @media screen and (max-width: 1279px) {
@@ -142,10 +140,20 @@
     }
 }
 
+@media screen and (max-width: 767px) {
+    .lead__title {
+        padding: 0 16px;
+        font-size: 40px;
+        line-height: 44px;
+        width: 288px;
+        height: 88px;
+    }
+}
+
 .lead__subtitle {
     margin: 0;
     width: 640px;
-    min-height: 72px;
+    height: 72px;
     font-size: 30px;
     line-height: 36px;
     padding: 32px 172px 64px 172px;
@@ -155,12 +163,24 @@
 @media screen and (max-width: 1279px) {
     .lead__subtitle {
         padding: 32px 128px 56px 128px;
+        margin: 0 auto;
     }
 }
 
 @media screen and (max-width: 1023px) {
-    .lead__subtitle{
+    .lead__subtitle {
         padding: 32px 64px 56px 64px;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .lead__subtitle { 
+        padding: 16px 16px 40px 16px;
+        font-size: 16px;
+        line-height: 20px;
+        width: 288px;
+        height: 40px;
     }
 }
 
@@ -185,6 +205,13 @@
     }
 }
 
+@media screen and (max-width: 767px) {
+    .lead__image  {
+        width: 320px;
+        height: 200px;
+    }
+}
+
 .lead__caption {
     height: 14px;
     font-size: 10px;
@@ -192,7 +219,22 @@
     letter-spacing: 1.5px;
     text-transform: uppercase;
     margin: 0;
+    padding-top: 8px;
 }
+
+@media screen and (max-width: 1023px) {
+    .lead__caption {
+        padding-left: 24px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .lead__caption {
+        padding-left: 16px;
+    }
+}
+
+/* intro */
 
 .intro {
     width: 690px;
