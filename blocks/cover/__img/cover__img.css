@@ -8,3 +8,10 @@
     object-fit: cover;
     display: block;
 }
+
+@media screen and (max-width: 1279px) {
+    .cover__img  {
+        width: 1024px;
+        height: 640px;
+    }
+}

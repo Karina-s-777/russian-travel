@@ -1,5 +1,5 @@
 .lead__caption {
-    height: 14px;
+    min-height: 14px;
     font-size: 10px;
     line-height: 14px;
     letter-spacing: 1.5px;
