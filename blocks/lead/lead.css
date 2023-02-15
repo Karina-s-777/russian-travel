@@ -1,0 +1,25 @@
+.lead {
+    width: 984px;
+    min-height: 1005px;
+}
+
+@media screen and (max-width: 1279px) {
+    .lead {
+    width: calc(928px + (984 - 928) * ((100vw - 1024px) / (1280 - 1024)));
+    min-height: calc(962px + (1005 - 962) * ((100vw - 1024px) / (1280 - 1024)));
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .lead  {
+    min-width: calc(768px + (1005 - 768) * ((100vw - 768px) / (1280 - 768)));
+    min-height: 862px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .lead  {
+    min-width: calc(320px + (1005 - 320) * ((100vw - 320px) / (1280 - 320)));
+    min-height: 406px;
+    }
+}

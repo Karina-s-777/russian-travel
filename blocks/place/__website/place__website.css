@@ -1,0 +1,15 @@
+.place__website {
+    width: 456px;
+    min-height: 46px;
+    grid-area: url;
+    align-self: end;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .place__website  {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
