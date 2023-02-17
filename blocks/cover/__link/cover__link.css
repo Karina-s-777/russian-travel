@@ -9,10 +9,10 @@
     min-height: 740px;
     position: relative;
     z-index: 0;
-    text-decoration: none; 
+    text-decoration: none;
     background-image: url(../../../images/cover-trains.jpg);
     background-size: cover;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     background-position: center;
     row-gap: 32px;
     cursor: url(../../../images/Pointer.png) 2 2, pointer;
@@ -49,7 +49,7 @@
     width: 100%;
     min-height: 100%;
     background: #2A2C2F;
-    opacity: 0.3;   
+    opacity: 0.3;
     z-index: -1;
     transition: opacity 200ms ease-in-out;
 }
