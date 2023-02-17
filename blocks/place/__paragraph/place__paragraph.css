@@ -11,18 +11,3 @@
     }
 }
 
-.place__paragraph:first-child {
-        padding-bottom: 26px;
-}
-
-@media screen and (max-width: 1279px) {
-    .place__paragraph:first-child  {
-        padding-bottom: 27px;
-    }
-}
-
-@media screen and (max-width: 1023px) {
-    .place__paragraph:first-child  {
-        padding-bottom: 25px;
-    }
-}

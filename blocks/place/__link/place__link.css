@@ -1,6 +1,5 @@
 .place__link {
-    width: 456px;
-    min-height: 22px;
+    max-width: 456px;
     font-size: 18px;
     line-height: 22px;
     text-decoration-line: underline;
@@ -8,5 +7,5 @@
 }
 
 .place__link:hover {
-    opacity: 0.5;
+    opacity: 0.8;
 }

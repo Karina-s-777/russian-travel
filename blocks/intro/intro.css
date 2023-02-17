@@ -1,18 +1,15 @@
 .intro {
     width: 690px;
-    min-height: 429px;
 }
 
 @media screen and (max-width: 1023px) {
     .intro {
         width: 720px;
-        height: 429px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .intro {
         width: 288px;
-        height: 754px;
     }
 }

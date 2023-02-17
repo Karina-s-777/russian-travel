@@ -5,21 +5,20 @@
 @media screen and (max-width: 1279px) {
     .page__header {
     margin: 28px 48px 0 48px;
-    width: calc(928px + (1184 - 928) * ((100vw - 1024px) / (1280 - 1024)));
+    max-width: calc(928px + (1184 - 928) * ((100vw - 1024px) / (1280 - 1024)));
     }
 }
 
 @media screen and (max-width: 1023px) {
     .page__header {
     margin: 28px 24px 0 24px;
-    width: calc(720px + (1184 - 720) * ((100vw - 768px) / (1280 - 768)));
+    max-width: calc(720px + (1184 - 720) * ((100vw - 768px) / (1280 - 768)));
     }
 }
 
 @media screen and (max-width: 767px) {
     .page__header {
     margin: 16px 16px 0 16px;
-    width: calc(288px + (1184 - 288) * ((100vw - 320px) / (1280 - 320)));
-    height: 40px;
+    max-width: calc(288px + (1184 - 288) * ((100vw - 320px) / (1280 - 320)));
     }
 }

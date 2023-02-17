@@ -1,14 +1,14 @@
 .footer__card {
-    padding-right: 18px;
+    margin-right: 18px;
 }
 
 @media screen and (max-width: 767px) {
     .footer__card  {
-    padding-bottom: 32px;
+    margin-bottom: 32px;
     }
 }
 
 .footer__card:last-child {
-    padding-right: 0;
-    padding-bottom: 0;
+    margin-right: 0;
+    margin-bottom: 0;
 }

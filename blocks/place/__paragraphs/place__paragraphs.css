@@ -1,25 +1,29 @@
 .place__paragraphs {
-    min-height: 375px;
-    width: 484px;
+    max-width: 484px;
     grid-area: text;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
 }
 
 @media screen and (max-width: 1279px) {
     .place__paragraphs  {
-        width: 456px;
+        max-width: 456px;
+        row-gap: 27px;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .place__paragraphs  {
-        width: 352px;
+        max-width: 352px;
+        row-gap:25px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .place__paragraphs  {
-        width: 288px;
-        padding-left: 16px;
-        padding-right: 16px;
+        max-width: 288px;
+        margin-left: 16px;
+        margin-right: 16px;
     }
 }
